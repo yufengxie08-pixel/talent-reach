@@ -1,0 +1,21 @@
+{
+  "edition": "2026",
+  "coverage": "user_supplied_authorized_snapshot",
+  "source_url": "https://fortune.com/ranking/global500/",
+  "organizations": [
+    {
+      "canonical_name": "Example Corporation",
+      "aliases": ["Example Corp"],
+      "domains": ["example.com"],
+      "type": "company",
+      "memberships": [
+        {
+          "list": "fortune_global_500",
+          "year": 2026,
+          "rank": 123,
+          "source_url": "https://fortune.com/ranking/global500/"
+        }
+      ]
+    }
+  ]
+}

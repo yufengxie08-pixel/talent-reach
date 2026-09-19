@@ -1,0 +1,2 @@
+"""Independent MCP server entrypoints."""
+

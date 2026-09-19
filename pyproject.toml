@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "talent-reach"
+version = "0.4.0"
+description = "Public-data talent research backends following Agent Reach routing principles"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "beautifulsoup4>=4.14,<5",
+  "fastmcp>=3.4,<4",
+  "httpx>=0.28,<1",
+  "pypdf>=6,<7",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8", "pytest-asyncio>=0.24"]
+
+[project.scripts]
+talent-reach = "talent_reach.servers.resolver_server:main"
+talent-reach-doctor = "talent_reach.doctor_cli:main"
+talent-reach-batch = "talent_reach.batch_cli:main"
+mcp-aboutme = "talent_reach.servers.aboutme_server:main"
+mcp-github-public = "talent_reach.servers.github_server:main"
+mcp-personal-site = "talent_reach.servers.personal_site_server:main"
+mcp-quora = "talent_reach.servers.quora_server:main"
+mcp-org-ranking = "talent_reach.servers.ranking_server:main"
+mcp-stackexchange = "talent_reach.servers.stackexchange_server:main"
+mcp-talent-qualifier = "talent_reach.servers.qualifier_server:main"
+mcp-talent-batch = "talent_reach.servers.batch_server:main"
+mcp-talent-resolver = "talent_reach.servers.resolver_server:main"
+mcp-wellfound = "talent_reach.servers.wellfound_server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+talent_reach = ["data/*.json"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+asyncio_mode = "auto"
+pythonpath = ["src"]

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "aboutme": {"command": "mcp-aboutme", "args": [], "description": "About.me public profile search"},
+    "quora": {"command": "mcp-quora", "args": [], "description": "Quora public profile search"},
+    "wellfound": {"command": "mcp-wellfound", "args": [], "description": "Wellfound public profile search"},
+    "stackexchange": {"command": "mcp-stackexchange", "args": [], "description": "Stack Exchange public profile search"},
+    "github-public": {"command": "mcp-github-public", "args": [], "description": "GitHub public profile and repository search"},
+    "personal-site": {"command": "mcp-personal-site", "args": [], "description": "Public personal-site discovery and parsing"},
+    "talent-resolver": {"command": "mcp-talent-resolver", "args": [], "description": "Cross-platform identity resolution"},
+    "org-ranking": {"command": "mcp-org-ranking", "args": [], "description": "QS and Fortune organization ranking checks"},
+    "talent-qualifier": {"command": "mcp-talent-qualifier", "args": [], "description": "Candidate qualification rules"},
+    "talent-batch": {"command": "mcp-talent-batch", "args": [], "description": "Batch orchestration and evidence output"}
+  }
+}

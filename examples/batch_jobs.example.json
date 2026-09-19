@@ -1,0 +1,39 @@
+{
+  "jobs": [
+    {
+      "candidate_name": "Jiajun Wu",
+      "profiles": [
+        {
+          "status": "ok",
+          "platform": "personal_site",
+          "profile_url": "https://jiajunwu.com/",
+          "name": "Jiajun Wu",
+          "headline": "Assistant Professor of Computer Science",
+          "current_org": "Stanford University",
+          "raw_summary": "Research in machine learning, robotics and computer vision.",
+          "education_records": [
+            {
+              "degree": "PhD",
+              "institution": "MIT",
+              "field": "EECS",
+              "year": 2020,
+              "source_url": "https://jiajunwu.com/",
+              "source_text": "PhD in EECS at MIT in 2020",
+              "confidence": "high"
+            }
+          ],
+          "contacts": [
+            {
+              "kind": "email",
+              "value": "jiajunwu@cs.stanford.edu",
+              "source_url": "https://jiajunwu.com/",
+              "visibility": "explicit_public",
+              "owner_role": "candidate",
+              "ownership_confidence": 0.98
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
