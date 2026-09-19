@@ -1,0 +1,15 @@
+# Local runtime state may contain authenticated browser cookies.
+.venv/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+work/
+.DS_Store
+.env
+.env.*
+!*.example
+config/mcporter.json
+LIVE_*_INPUT_*.json
+LIVE_*_RESULTS_*.json
+LIVE_*_RESULTS_*.csv
